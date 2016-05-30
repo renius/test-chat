@@ -6,6 +6,7 @@ gem 'pg', '~> 0.15'
 gem 'active_model_serializers'
 gem 'responders'
 gem 'puma'
+gem 'bcrypt'
 
 group :production do
   gem 'rails_12factor'

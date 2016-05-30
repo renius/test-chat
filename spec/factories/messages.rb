@@ -1,7 +1,7 @@
 FactoryGirl.define do
   factory :message do
-    text "MyText"
-    user nil
     chat nil
+    user nil
+    messages_count 1
   end
 end

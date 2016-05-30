@@ -17,9 +17,10 @@ module ChatTest
   class Application < Rails::Application
     config.generators do |g|
       g.stylesheets false
-      g.helpers false
+      g.helper false
       g.javascript false
       g.assets false
+      g.template_engine false
     end
 
     config.app_generators.scaffold_controller :responders_controller
